@@ -1,12 +1,26 @@
-# React + Vite
+# components-lib
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ett minimalt **komponentbibliotek** byggt med **Vite + React** och **Storybook 9**.
 
-Currently, two official plugins are available:
+**Syfte:**  
+Ge en snabb och isolerad miljö för att utveckla, dokumentera och testa UI-komponenter. Vite används för en enkel demoapp, medan Storybook används för komponentutveckling och dokumentation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Kom igång 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1: Navigera dit du vill klona projektet
+2: Kör i terminalen
+https://github.com/Frommflin/fwk-femiral-components.git
+
+3: cd in i projektet
+4: ```npm install```
+
+
+
+## Kör app
+```npm run dev```
+
+## Kör storybook
+```npm run storybook```
+
