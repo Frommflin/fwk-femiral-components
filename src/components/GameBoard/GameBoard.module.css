@@ -1,0 +1,7 @@
+.gameBoard {
+  background-color: lightgray;
+  border: 1px solid darkgray;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+}

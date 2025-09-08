@@ -1,5 +1,8 @@
 import React from "react";
+import styles from "./GameBoard.module.css";
 
-export const GameBoard = () => {
-  return <div>GameBoard</div>;
+export const GameBoard = ({ label }) => {
+  return <div className={styles.gameBoard}>{label}</div>;
 };
+
+export default GameBoard;
