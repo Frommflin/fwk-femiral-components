@@ -1,8 +1,6 @@
-import "./App.css";
-import { Button } from "./components";
 
 function App() {
-  return <></>;
+  return <h1>Femiral Components</h1>;
 }
 
 export default App;
