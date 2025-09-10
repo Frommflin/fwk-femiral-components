@@ -1,5 +1,5 @@
 export default {
-  title: "Components/Login",
+  title: "Components/GameTile",
   component: () => <h1>Empty story prevents Storybook crash</h1>,
 };
 
