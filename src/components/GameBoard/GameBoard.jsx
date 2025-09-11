@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./GameBoard.module.css";
+import GameTile from "../GameTile/GameTile";
 
 export const GameBoard = ({
   size = 7,
@@ -11,16 +12,7 @@ export const GameBoard = ({
         const found = coloredCells.find((c) => c.i === i);
         const color = found ? found.color : "white";
 
-        return (
-          <div key={i} className={styles.cell}>
-            <div
-              className={styles.cellContent}
-              style={{ backgroundColor: color }}
-            >
-              {i}
-            </div>
-          </div>
-        );
+        return <GameTile i={i} key={i} color={color} />;
       })}
     </div>
   );

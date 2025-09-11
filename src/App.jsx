@@ -1,6 +1,11 @@
-
+import React from "react";
+import GameBoard from "./components/GameBoard/GameBoard";
 function App() {
-  return <h1>Femiral Components</h1>;
+  return (
+    <div>
+      <GameBoard />
+    </div>
+  );
 }
 
 export default App;
