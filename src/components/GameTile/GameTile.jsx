@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "./GameTile.module.css";
+import React from "react"
+import styled from "./GameTile.module.css"
 
 const GameTile = ({ i, color }) => {
   return (
@@ -8,7 +8,7 @@ const GameTile = ({ i, color }) => {
         {i}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default GameTile;
+export default GameTile

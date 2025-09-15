@@ -1,6 +1,8 @@
+import GameTile from "./GameTile";
+
 export default {
   title: "Components/GameTile",
-  component: () => <h1>Empty story prevents Storybook crash</h1>,
+  component: GameTile,
 };
 
 export const Default = {};

@@ -1,4 +1,6 @@
 .cell {
+  height: 100px;
+  width: 100px;
   background: #ddd;
   border: 1px solid #aaa;
   display: flex;
