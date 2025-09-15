@@ -1,6 +1,8 @@
+import GameSquare from "./GameSquare"
+
 export default {
     title: "Components/GameSquare",
-    component: () => <h1>Empty story prevents Storybook crash</h1>,
+    component: GameSquare,
 }
 
 export const Default = {}
