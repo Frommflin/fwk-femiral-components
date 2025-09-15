@@ -1,6 +1,8 @@
+import PlayerCard from "./PlayerCard"
+
 export default {
     title: "Components/PlayerCard",
-    component: () => <h1>Empty story prevents Storybook crash</h1>,
+    component: PlayerCard,
 }
 
 export const Default = {}
