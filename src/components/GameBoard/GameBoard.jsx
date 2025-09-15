@@ -7,7 +7,13 @@ export const GameBoard = ({
   coloredCells = [{ i: 5, color: "white" }],
 }) => {
   return (
-    <div className={styles.gameBoard}>
+    <div
+      className={styles.gameBoard}
+      style={{
+        gridTemplateColumns: `repeat(${size}, 40px)`,
+        gridTemplateRows: `repeat(${size}, 40px)`,
+      }}
+    >
       {Array.from({ length: size * size }, (_, i) => {
         const found = coloredCells.find((c) => c.i === i);
         const color = found ? found.color : "white";

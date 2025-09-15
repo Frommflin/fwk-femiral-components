@@ -1,27 +1,24 @@
-import React, { useState } from 'react';
-import Input from './Input';
+import Input from "./Input";
 
 export default {
-  title: 'Components/Input',
+  title: "Components/Input",
   component: Input,
 };
 
 export const Default = {
-    args: {
-     
-    },
-}
+  args: {},
+};
 
 export const Testpasswordtype = {
-    args: {
-        type: "password"
-    },
-}
+  args: {
+    type: "password",
+  },
+};
 
 export const DisabledField = {
   args: {
-    placeholder: 'Kan inte ändras',
-    type: 'text',
+    placeholder: "Kan inte ändras",
+    type: "text",
     disabled: true,
     onChange: () => {},
   },
