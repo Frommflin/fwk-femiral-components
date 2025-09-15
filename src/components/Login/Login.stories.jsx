@@ -1,6 +1,8 @@
+import Login from "./Login"
+
 export default {
     title: "Components/Login",
-    component: () => <h1>Empty story prevents Storybook crash</h1>,
+    component: Login,
 }
 
 export const Default = {}

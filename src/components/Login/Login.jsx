@@ -1,6 +1,10 @@
-export default {
-  title: "Components/GameTile",
-  component: () => <h1>Empty story prevents Storybook crash</h1>,
-};
+import React from 'react'
+import styles from './login.module.css'
 
-export const Default = {};
+const Login = () => {
+  return (
+    <div className={styles.container}>Login</div>
+  )
+}
+
+export default Login
