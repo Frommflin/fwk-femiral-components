@@ -1,4 +1,4 @@
-import GameSquare from "./GameSquare"
+import GameSquare from "./GameSquare.molecule"
 
 export default {
     title: "Components/GameSquare",
@@ -6,3 +6,15 @@ export default {
 }
 
 export const Default = {}
+
+export const RedPlayed = {
+    args: {
+        playedColor: 'red'
+    }
+}
+
+export const YellowPlayed = {
+    args: {
+        playedColor: 'yellow'
+    }
+}
