@@ -1,1 +1,1 @@
-export { default } from "./GameSquare";
+export { default } from "./GameSquare.molecule";
