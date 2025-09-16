@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./GameBoard.module.css";
-import GameTile from "../GameTile/GameTile.atom";
+import GameSquare from "../GameSquare";
 
 export const GameBoard = ({
   size = 7,
@@ -18,7 +18,7 @@ export const GameBoard = ({
         const found = coloredCells.find((c) => c.i === i);
         const color = found ? found.color : "white";
 
-        return <GameTile i={i} key={i} color={color} />;
+        return <GameSquare i={i} key={i} color={color} />;
       })}
     </div>
   );
