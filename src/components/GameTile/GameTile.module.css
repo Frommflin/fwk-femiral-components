@@ -1,16 +1,9 @@
-.cell {
-  height: 40px;
-  width: 40px;
-  background: #ddd;
-  border: 1px solid #aaa;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.cellContent {
+.tile {
+  aspect-ratio: 1 / 1;
+  min-width: 10px;
+  max-width: 50px;
   width: 80%;
-  height: 80%;
-  background: white;
+  border: 1px solid lightgrey;
   border-radius: 50%;
 }

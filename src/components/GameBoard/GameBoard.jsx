@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./GameBoard.module.css";
-import GameTile from "../GameTile/GameTile";
+import GameTile from "../GameTile/GameTile.atom";
 
 export const GameBoard = ({
   size = 7,

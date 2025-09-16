@@ -1,1 +1,1 @@
-export { default } from "./GameTile";
+export { default } from "./GameTile.atom";
