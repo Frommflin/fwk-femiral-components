@@ -1,8 +1,9 @@
-export { Button } from './components'
-export { GameBoard } from './components'
-export { Header } from './components'
-export { PlayerCard } from './components'
-export { GameSquare } from './components'
-export { GameTile } from './components'
-export { Input } from './components'
-export { Login } from './components'
+export { Button } from "./components";
+export { GameBoard } from "./components";
+export { GameBoard2 } from "./components";
+export { Header } from "./components";
+export { PlayerCard } from "./components";
+export { GameSquare } from "./components";
+export { GameTile } from "./components";
+export { Input } from "./components";
+export { Login } from "./components";
