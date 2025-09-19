@@ -1,0 +1,21 @@
+.bord {
+  display: grid;
+  grid-template-columns: repeat(7, 40px);
+  grid-template-rows: repeat(7, 40px);
+  gap: 4px;
+}
+
+.cell {
+  background: #ddd;
+  border: 1px solid #aaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cellContent {
+  width: 80%;
+  height: 80%;
+  background: white;
+  border-radius: 50%;
+}
