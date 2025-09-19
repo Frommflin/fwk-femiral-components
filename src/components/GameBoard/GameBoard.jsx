@@ -18,7 +18,7 @@ export const GameBoard = ({
         const found = coloredCells.find((c) => c.i === i);
         const color = found ? found.color : "white";
 
-        return <GameSquare i={i} key={i} color={color} />;
+        return <GameSquare i={i} key={i} playedColor={color} />;
       })}
     </div>
   );
