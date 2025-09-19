@@ -1,4 +1,4 @@
-import GameBoard2 from "./GameBoard2";
+import GameBoard2 from "./GameBoard2.organism";
 
 export default {
   title: "Components/GameBoard2",
