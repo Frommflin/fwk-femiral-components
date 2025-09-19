@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./GameBoard2.module.css";
+import GameSquare from "../GameSquare";
 
 const GameBoard2 = ({ size = 7, coloredCells = [] }) => {
   return (
@@ -17,14 +18,7 @@ const GameBoard2 = ({ size = 7, coloredCells = [] }) => {
           );
           const color = found ? found.color : "white";
 
-          return (
-            <div key={`${row}-${col}`} className={styles.cell}>
-              <div
-                className={styles.cellContent}
-                style={{ backgroundColor: color }}
-              />
-            </div>
-          );
+          return <GameSquare playedColor={color} />;
         })
       )}
     </div>

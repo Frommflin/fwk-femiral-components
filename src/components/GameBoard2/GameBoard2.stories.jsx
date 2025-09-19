@@ -3,6 +3,9 @@ import GameBoard2 from "./GameBoard2.organism";
 export default {
   title: "Components/GameBoard2",
   component: GameBoard2,
+  parameters: {
+    layout: "centered",
+  },
 };
 
 export const Default = {
