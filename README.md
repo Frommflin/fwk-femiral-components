@@ -19,7 +19,7 @@ Ge en snabb och isolerad miljö för att utveckla, dokumentera och testa UI-komp
 
 - Navigera dit du vill klona projektet
 - klona repot: `git clone https://github.com/Frommflin/fwk-femiral-components.git`
-- navigera in i repomappen: `cd fwk-femiral-frontend`
+- navigera in i repomappen: `cd fwk-femiral-components`
 
 ### Aktivera rätt node version
 
