@@ -6,3 +6,10 @@ export default {
 };
 
 export const Default = {};
+
+export const UsernamesGiven = {
+  args: {
+    user1: "A Name",
+    user2: "B Name",
+  },
+};
