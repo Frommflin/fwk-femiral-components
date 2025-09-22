@@ -1,4 +1,4 @@
-import PlayerCard from "./PlayerCard"
+import PlayerCard from "./PlayerCard.atom"
 
 export default {
     title: "Components/PlayerCard",
@@ -6,3 +6,18 @@ export default {
 }
 
 export const Default = {}
+
+export const YellowPlayerNamed = {
+    args: {
+        i: 1,
+        user: 'Username',
+        color: 'yellow',
+    }
+}
+export const RedPlayerNamed = {
+    args: {
+        i: 1,
+        user: 'Username',
+        color: 'red',
+    }
+}
