@@ -1,6 +1,5 @@
-
 export const dynamicStyles = (color) => ({
-    playerColor: {
-        color: color,
-    }
-})
+  playerColor: {
+    color: color,
+  },
+});
