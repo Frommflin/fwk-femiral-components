@@ -6,3 +6,4 @@ export { GameSquare } from "./GameSquare/GameSquare.molecule";
 export { GameTile } from "./GameTile/GameTile.atom";
 export { Input } from "./Input/Input";
 export { Login } from "./Login/Login";
+export { PlayerDisplay } from "./PlayerDisplay/PlayerDisplay.molecule";

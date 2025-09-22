@@ -7,3 +7,4 @@ export { GameSquare } from "./components";
 export { GameTile } from "./components";
 export { Input } from "./components";
 export { Login } from "./components";
+export { PlayerDisplay } from "./components";
