@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Register from './Register';
+import Register from './Register.molecule';
 
 export default {
   title: 'Components/Register',
@@ -7,22 +7,17 @@ export default {
 };
 
 export const Default = () => {
-  const [formData, setFormData] = useState({ username: '', password: '' });
+  const [formData, setFormData] = useState({ username: "", password: "" });
 
   const handleChange = ({ name, value }) => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('Register form submitted:', formData);
-  };
-
   return (
     <Register
-      formData={formData}
+      username={formData.username}
+      password={formData.password}
       onChange={handleChange}
-      onSubmit={handleSubmit}
     />
   );
 };
