@@ -3,8 +3,8 @@ import styles from './Button.module.css';
 
 const Button = () => {
   return (
-    <div>
-Button
+    <div className={styles.button}>
+        Button
     </div>
   );
 };
