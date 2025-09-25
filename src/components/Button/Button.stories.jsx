@@ -1,6 +1,8 @@
+import Button from './Button'
+
 export default {
     title: "Components/Button",
-    component: () => <h1>Empty story prevents Storybook crash</h1>,
+    component: Button,
 }
 
 export const Default = {}
