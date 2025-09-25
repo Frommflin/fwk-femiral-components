@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from './Button.module.css';
 
-const Button = ({onClick, type = "button"}) => {
+const Button = ({onClick, type = "button", label}) => {
   return (
-    <button> 
+    <button 
         type={type}
-        classname={styles.button}
-        onClick={onClick}
+        onClick={onClick}>
+          {label}
     </button>
   );
 };
