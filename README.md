@@ -28,7 +28,7 @@ Ge en snabb och isolerad miljö för att utveckla, dokumentera och testa UI-komp
   - `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash`
   - `\. "$HOME/.nvm/nvm.sh"`
   - Fler alternativ för installation av nvm kan hittas på [Node.js](https://nodejs.org/en/download)
-- Installera node-versionen i projektet `nvm install 22`
+- Installera node-versionen i projektet `nvm install 22.19.0`
 - Använd den nedladdade versionen (ger också rätt npm version): `nvm use`
 
 ### Installera dependencies
