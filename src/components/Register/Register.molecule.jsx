@@ -1,5 +1,5 @@
 import React from 'react';
-import Input from '../Input/Input';
+import Input from '../Input/Input.atom';
 import styles from './Register.module.css';
 
 const Register = ({ username, password, onChange }) => {
