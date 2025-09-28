@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from "./Label.module.css";
-const Label = ({text, htmlFor, className}) => {
+const Label = ({text, className}) => {
   return (
-    <label htmlFor={htmlFor} className={`${styles.label} ${className || ""}`}>
+    <label  className={`${styles.label} ${className || ""}`}>
        {text}
     </label>
   )
