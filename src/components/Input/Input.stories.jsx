@@ -1,4 +1,4 @@
-import Input from "./Input";
+import Input from "./Input.atom";
 
 export default {
   title: "Components/Input",
