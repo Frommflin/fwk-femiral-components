@@ -8,4 +8,20 @@ export default {
   },
 };
 
-export const Default = {};
+export const Default = {
+  args: {
+    numberOfButtons: 7,
+  },
+};
+
+export const FiveButtons = {
+  args: {
+    numberOfButtons: 5,
+  },
+};
+
+export const ThreeButtons = {
+  args: {
+    numberOfButtons: 3,
+  },
+};
