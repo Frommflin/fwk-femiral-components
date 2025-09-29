@@ -1,16 +1,24 @@
 import React from "react";
 import styles from "./Header.module.css";
+import { NavLink } from "react-router-dom";
 
-const Header = ({ title = "FYRA I RAD" }) => {
+const Header = ({ title, navLinks }) => {
   return (
     <header className={styles.header}>
       <h1>{title}</h1>
       <nav className={styles.nav}>
-        <ul>
-          <li><a href="/">Hem</a></li>
-          <li><a href="/spel">Spela</a></li>
-          <li><a href="/regler">Regler</a></li>
-          <li><a href="/om">Om oss</a></li>
+        <ul className={styles.list}>
+          {navLinks &&
+            navLinks.map((navlink, i) => {
+              if (navlink) {
+                console.log(navlink);
+                return (
+                  <li key={i}>
+                    <NavLink to={`/${navlink.path}`}>{navlink.name}</NavLink>
+                  </li>
+                );
+              }
+            })}
         </ul>
       </nav>
     </header>
