@@ -1,8 +1,0 @@
-name: hello-world-actions
-run-name: ${{ github.actor }} is working in the component repository
-on: [push, pull_request]
-jobs:
-  print-hello-world:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Hello World!"
