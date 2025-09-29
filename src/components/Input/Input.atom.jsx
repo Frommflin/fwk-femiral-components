@@ -1,18 +1,25 @@
-import React from 'react';
-import styles from './Input.module.css';
+import React from "react";
+import styles from "./Input.module.css";
 
-const Input = ({ type,  value, onChange, placeholder, disabled = false, className }) => {
+const Input = ({
+  type,
+  id,
+  value,
+  onChange,
+  placeholder,
+  disabled = false,
+  className,
+}) => {
   return (
-    <div>
     <input
       type={type}
+      id={id}
       value={value}
       onChange={onChange}
       placeholder={placeholder}
       disabled={disabled}
-      className={`${styles.inputField} ${className || ''}`}
+      className={`${styles.inputField} ${className || ""}`}
     />
-    </div>
   );
 };
 
