@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-import React, { useState } from "react";
-import Register from "./Register.molecule";
-=======
+
 import React, { useState } from 'react';
 import Register from './Register.organism';
->>>>>>> b29b5c1 (changed the register.molocule to organism, imported button component and modfied register.stories.jsx accorging that)
 
 export default {
   title: "Components/Register",
