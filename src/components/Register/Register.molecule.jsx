@@ -1,8 +1,10 @@
-import React from 'react';
-import Input from '../Input/Input';
-import styles from './Register.module.css';
+import React from "react";
+import Input from "../Input/Input";
+import styles from "./Register.module.css";
 
-const Register = ({ username, password, onChange }) => {
+const Register = ({ username, password, onChange, showPlaceholder = false }) => {
+  if (showPlaceholder) return <div className={styles.registerMolecule}>box</div>;
+
   return (
     <div className={styles.registerMolecule}>
       <h3>Register</h3>
