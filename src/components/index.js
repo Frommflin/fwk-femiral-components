@@ -9,3 +9,4 @@ export { Login } from "./Login/Login";
 export { PlayerDisplay } from "./PlayerDisplay/PlayerDisplay.molecule";
 export { Button } from "./Button/Button.atom";
 export { ButtonRow } from "./ButtonRow/ButtonRow.molecule";
+export { InputField } from "./InputField/InputField.molecule";
