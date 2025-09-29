@@ -7,7 +7,7 @@ import Button from '../Button/Button.atom';
 
 const Register = ({ username, password, onChange, onSubmit }) => {
   return (
-    <div className={styles.registerMolecule}>
+    <div className={styles.registerOrganism}>
       <h3>Register</h3>
        <Label text="Username" htmlFor="username" />
       <Input
