@@ -42,3 +42,8 @@ Ge en snabb och isolerad miljö för att utveckla, dokumentera och testa UI-komp
 ### Kör storybook
 
 `npm run storybook`
+
+## CI workflow
+
+Projektet genomgår test av bygge (`npm run build`) vid varje push in i `master`-branchen. Resultat av bygget hittas under `Actions` > `Node.js CI` i repo-menyn, alternativ navigera direkt till `https://github.com/Frommflin/fwk-femiral-components/actions/workflows/react-build.yml`
+
