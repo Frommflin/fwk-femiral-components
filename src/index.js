@@ -8,4 +8,3 @@ export { GameTile } from "./components";
 export { Input } from "./components";
 export { Login } from "./components";
 export { PlayerDisplay } from "./components";
-export { Button } from "./components";
