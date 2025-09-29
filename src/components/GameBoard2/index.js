@@ -1,1 +1,1 @@
-export { default } from "./GameBoard2";
+export { default } from "./GameBoard2.organism";
