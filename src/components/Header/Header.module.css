@@ -5,3 +5,12 @@
   padding: 1rem;
   background-color: #e2e3e4;
 }
+
+.list {
+  display: flex;
+  list-style: none;
+}
+
+.list li {
+  margin: 5px 20px;
+}
