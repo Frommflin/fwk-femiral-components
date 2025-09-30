@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Gamesquare.module.css";
+import styles from "./GameSquare.module.css";
 import GameTile from "../GameTile/GameTile.atom";
 
 const GameSquare = ({ playedColor }) => {
