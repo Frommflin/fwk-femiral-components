@@ -8,7 +8,6 @@ const Login = ({username, password, onChange, onSubmit}) => {
   return (
     <div className={styles.loginOrganism}>
       <h3>Login</h3>
-
       <Label text="Username" htmlFor="username" />
       <Input
         type="text"
