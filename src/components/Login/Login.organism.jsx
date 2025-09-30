@@ -1,10 +1,10 @@
-import React from 'react'
-import styles from './login.module.css'
-import Input from '../Input/Input.atom';;
-import Label from '../Label/Label.atom';
-import Button from '../Button/Button.atom';
+import React from "react";
+import styles from "./Login.module.css";
+import Input from "../Input/Input.atom";
+import Label from "../Label/Label.atom";
+import Button from "../Button/Button.atom";
 
-const Login = ({username, password, onChange, onSubmit}) => {
+const Login = ({ username, password, onChange, onSubmit }) => {
   return (
     <div className={styles.loginOrganism}>
       <h3>Login</h3>
@@ -31,7 +31,7 @@ const Login = ({username, password, onChange, onSubmit}) => {
         className={styles.loginButton}
       />
     </div>
-  )
-}
+  );
+};
 
-export default Login
+export default Login;
