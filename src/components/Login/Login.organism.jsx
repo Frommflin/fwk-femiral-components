@@ -8,25 +8,28 @@ const Login = ({username, password, onChange, onSubmit}) => {
   return (
     <div className={styles.loginOrganism}>
       <h3>Login</h3>
-      <label text='Username' htmlFor='Username'/>
+
+      <Label text="Username" htmlFor="username" />
       <Input
-      text='username'
-      value={username}
-      onChange={(e)=> onChange({name: 'usernmae', value: e.target.value})}
-      placeholder='username'
+        type="text"
+        value={username}
+        onChange={(e) => onChange({ name: "username", value: e.target.value })}
+        placeholder="Username"
       />
-      <Label text='passsword' htmlFor='password' />
-      <input 
-      text= 'username'
-      value={password}
-      onChange={(e)=>onChange({name: 'password', value: e.target.value })}
-      placeholder='password'
+
+      <Label text="Password" htmlFor="password" />
+      <Input
+        type="password"
+        value={password}
+        onChange={(e) => onChange({ name: "password", value: e.target.value })}
+        placeholder="Password"
       />
+
       <Button
-      type='submit'
-      label='Login'
-      onClick={onSubmit}
-     className='{styles.loginButton}'
+        type="submit"
+        label="Login"
+        onClick={onSubmit}
+        className={styles.loginButton}
       />
     </div>
   )
