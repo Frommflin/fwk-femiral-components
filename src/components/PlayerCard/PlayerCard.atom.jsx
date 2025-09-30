@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./playerCard.module.css";
+import styles from "./PlayerCard.module.css";
 import { dynamicStyles } from "./PlayerCard.styles";
 
 const PlayerCard = ({ i, user, color }) => {
