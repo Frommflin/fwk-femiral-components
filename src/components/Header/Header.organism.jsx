@@ -11,7 +11,6 @@ const Header = ({ title, navLinks }) => {
           {navLinks &&
             navLinks.map((navlink, i) => {
               if (navlink) {
-                console.log(navlink);
                 return (
                   <li key={i}>
                     <NavLink to={`/${navlink.path}`}>{navlink.name}</NavLink>
