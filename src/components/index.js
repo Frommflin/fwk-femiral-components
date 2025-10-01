@@ -12,3 +12,4 @@ export { default as ButtonRow } from "./ButtonRow/ButtonRow.molecule";
 export { default as InputField } from "./InputField/InputField.molecule";
 export { default as Label } from "./Label/Label.atom";
 export { default as InfoBox } from "./InfoBox/InfoBox.atom";
+export { default as FiveInRowContainer } from "./FiveInRowContainer/FiveInRowContainer";
