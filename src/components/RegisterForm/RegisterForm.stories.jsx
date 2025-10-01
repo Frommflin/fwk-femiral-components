@@ -1,14 +1,13 @@
 
 import React, { useState } from 'react';
-import Register from './Register.organism';
-import RegisterForm from './Register.organism';
+import RegisterForm from './RegisterForm.organism';
 
 export default {
-  title: "Components/Register",
-  component: Register,
+  title: "Components/RegisterForm",
+  component: RegisterForm,
 };
 
-export const Placeholder = () => <Register showPlaceholder />;
+export const Placeholder = () => <RegisterForm showPlaceholder />;
 
 export const Default = () => {
   const [formData, setFormData] = useState({ username: "", password: "" });
