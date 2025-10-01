@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import Login from "./Login.organism";
+import LoginForm from "./Login.organism";
 
 export default {
   title: "Components/Login",
-  component: Login,
+  component: LoginForm, // ändrat från Login till LoginForm
   argTypes: {
     username: { control: "text" },
     password: { control: "text" },
@@ -33,7 +33,7 @@ const Template = (args) => {
   };
 
   return (
-    <Login
+    <LoginForm
       {...args}
       username={formData.username}
       password={formData.password}

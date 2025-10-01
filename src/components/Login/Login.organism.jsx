@@ -6,7 +6,7 @@ import Button from "../Button/Button.atom";
 const LoginForm = ({ username, password, onChange, onSubmit }) => {
   return (
     <div className={styles.loginOrganism}>
-      <h3>Login</h3>
+      <h3>Login form</h3>
       <Input
       label="Username"
         type="text"
