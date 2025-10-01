@@ -4,6 +4,7 @@ import react from "@vitejs/plugin-react";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { storybookTest } from "@storybook/addon-vitest/vitest-plugin";
+import cssInjectedByJs from "vite-plugin-css-injected-by-js";
 
 const dirname =
   typeof __dirname !== "undefined"
@@ -11,8 +12,8 @@ const dirname =
     : path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
-  plugins: [react()],
-
+  plugins: [cssInjectedByJs(), react()],
+  css: {},
   build: {
     lib: {
       entry: path.resolve(dirname, "src/components/index.js"),
@@ -34,7 +35,6 @@ export default defineConfig({
     emptyOutDir: true,
     cssCodeSplit: true,
   },
-
   test: {
     projects: [
       {

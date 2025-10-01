@@ -1,6 +1,6 @@
 {
   "name": "femiral-components-lib",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
@@ -52,6 +52,7 @@
     "playwright": "^1.55.0",
     "storybook": "^9.1.5",
     "vite": "^7.1.2",
+    "vite-plugin-css-injected-by-js": "^3.5.2",
     "vitest": "^3.2.4"
   },
   "publishConfig": {
