@@ -27,6 +27,7 @@ const Register = ({ username, password, onChange, onSubmit }) => {
         type="submit"
         label="Register"
         onClick={onSubmit}
+        className={styles.registerButton}
       />
     </div>
     
