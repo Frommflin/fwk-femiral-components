@@ -11,3 +11,4 @@ export { PlayerDisplay } from "./components";
 export { ButtonRow } from "./components";
 export { InputField } from "./components";
 export { Label } from "./components";
+export { InfoBox } from "./components";
