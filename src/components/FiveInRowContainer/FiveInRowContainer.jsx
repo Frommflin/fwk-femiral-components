@@ -4,15 +4,19 @@ import GameBoard2 from "../GameBoard2";
 import ButtonRow from "../ButtonRow";
 
 const FiveInRowContainer = ({
-  numberOfButtons,
   onClick,
   size,
   coloredCells,
+  classNameGameSquare,
 }) => {
   return (
-    <div>
-      <ButtonRow numberOfButtons={numberOfButtons} onClick={onClick} />
-      <GameBoard2 size={size} coloredCells={coloredCells} />
+    <div className={styles.fiveInRowContainer}>
+      <ButtonRow numberOfButtons={size} onClick={onClick} />
+      <GameBoard2
+        size={size}
+        coloredCells={coloredCells}
+        classNameGameSquare={classNameGameSquare}
+      />
     </div>
   );
 };

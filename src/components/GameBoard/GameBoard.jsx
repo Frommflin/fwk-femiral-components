@@ -10,8 +10,8 @@ export const GameBoard = ({
     <div
       className={styles.gameBoard}
       style={{
-        gridTemplateColumns: `repeat(${size}, 40px)`,
-        gridTemplateRows: `repeat(${size}, 40px)`,
+        gridTemplateColumns: `repeat(${size}, 50px)`,
+        gridTemplateRows: `repeat(${size}, 50px)`,
       }}
     >
       {Array.from({ length: size * size }, (_, i) => {

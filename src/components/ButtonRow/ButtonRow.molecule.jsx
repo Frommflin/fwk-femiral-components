@@ -9,7 +9,8 @@ const ButtonRow = ({ numberOfButtons = 4, onClick }) => {
         <Button
           key={index}
           onClick={() => onClick(index)}
-          label={`Button ${index + 1}`}
+          label={`↓`}
+          className={styles.fiveInRowButton}
         />
       ))}
     </div>

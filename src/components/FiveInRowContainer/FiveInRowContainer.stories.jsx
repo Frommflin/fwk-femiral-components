@@ -3,11 +3,14 @@ import FiveInRowContainer from "./FiveInRowContainer";
 export default {
   title: "Components/FiveInRowContainer",
   component: FiveInRowContainer,
+  parameters: {
+    layout: "centered",
+  },
 };
 
 export const Default = {
   args: {
-    numberOfButtons: 5,
+    numberOfButtons: 7,
     size: 7,
     coloredCells: [
       { row: 6, col: 1, color: "red" },
