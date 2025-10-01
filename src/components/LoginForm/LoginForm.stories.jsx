@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import LoginForm from "./Login.organism";
+import LoginForm from "./LoginForm.organism";
 
 export default {
-  title: "Components/Login",
+  title: "Components/LoginForm",
   component: LoginForm, // ändrat från Login till LoginForm
   argTypes: {
     username: { control: "text" },

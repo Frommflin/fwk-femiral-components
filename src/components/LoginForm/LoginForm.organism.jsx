@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Login.module.css";
+import styles from "./LoginForm.module.css";
 import Input from "../InputField/InputField.molecule"
 import Button from "../Button/Button.atom";
 
