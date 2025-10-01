@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
 import Register from './Register.organism';
+import RegisterForm from './Register.organism';
 
 export default {
   title: "Components/Register",
@@ -21,7 +22,7 @@ export const Default = () => {
   };
 
   return (
-    <Register
+    <RegisterForm
       username={formData.username}
       password={formData.password}
       onChange={handleChange}
