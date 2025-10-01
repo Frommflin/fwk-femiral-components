@@ -1,32 +1,52 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./LoginForm.module.css";
-import Input from "../InputField/InputField.molecule"
+import Input from "../InputField/InputField.molecule";
 import Button from "../Button/Button.atom";
 
-const LoginForm = ({ username, password, onChange, onSubmit }) => {
+const LoginForm = ({ onSubmit }) => {
+  const [user, setUser] = useState({
+    username: "",
+    password: "",
+  });
+  const onNameChange = (name) => {
+    setUser({
+      ...user,
+      username: name,
+    });
+  };
+  const onPwdChange = (pwd) => {
+    setUser({
+      ...user,
+      password: pwd,
+    });
+  };
+
   return (
     <div className={styles.loginOrganism}>
       <h3>Login form</h3>
       <Input
-      label="Username"
+        inputId="username"
+        label="Username"
         type="text"
-        value={username}
-        onChange={(e) => onChange({ name: "username", value: e.target.value })}
+        onChange={(e) => onNameChange(e.target.value)}
         placeholder="Username"
       />
 
       <Input
-      label="Password"
+        inputId="pwd"
+        label="Password"
         type="password"
-        value={password}
-        onChange={(e) => onChange({ name: "password", value: e.target.value })}
+        onChange={(e) => onPwdChange(e.target.value)}
         placeholder="Password"
       />
 
       <Button
         type="submit"
         label="Login"
-        onClick={onSubmit}
+        onClick={(e) => {
+          e.preventDefault();
+          onSubmit(user);
+        }}
         className={styles.loginButton}
       />
     </div>
