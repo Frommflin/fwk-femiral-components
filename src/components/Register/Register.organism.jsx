@@ -4,7 +4,7 @@ import styles from "./Register.module.css";
 import Button from '../Button/Button.atom';
 
 
-const Register = ({ username, password, onChange, onSubmit }) => {
+const RegisterForm = ({ username, password, onChange, onSubmit }) => {
   return (
     <div className={styles.registerOrganism}>
       <h3>Register</h3>
@@ -36,4 +36,4 @@ const Register = ({ username, password, onChange, onSubmit }) => {
   );
 };
 
-export default Register;
+export default RegisterForm;

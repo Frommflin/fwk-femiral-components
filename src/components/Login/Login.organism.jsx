@@ -3,7 +3,7 @@ import styles from "./Login.module.css";
 import Input from "../InputField/InputField.molecule"
 import Button from "../Button/Button.atom";
 
-const Login = ({ username, password, onChange, onSubmit }) => {
+const LoginForm = ({ username, password, onChange, onSubmit }) => {
   return (
     <div className={styles.loginOrganism}>
       <h3>Login</h3>
@@ -33,4 +33,4 @@ const Login = ({ username, password, onChange, onSubmit }) => {
   );
 };
 
-export default Login;
+export default LoginForm;
