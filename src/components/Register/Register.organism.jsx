@@ -1,5 +1,5 @@
 import React from "react";
-import Input from '../Input/Input.atom';
+import Input from '../InputField/InputField.molecule'
 import styles from "./Register.module.css";
 import Button from '../Button/Button.atom';
 
